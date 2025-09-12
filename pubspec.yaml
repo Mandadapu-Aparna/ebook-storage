@@ -1,0 +1,30 @@
+name: app_111
+description: A new Flutter project.
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Compatible packages
+  shared_preferences: ^2.5.3
+  syncfusion_flutter_core: ^30.2.7
+  syncfusion_flutter_pdf: ^30.2.7
+  syncfusion_flutter_pdfviewer: ^30.2.7
+  syncfusion_flutter_signaturepad: ^30.2.7
+  cupertino_icons: ^1.0.6   # optional, iOS style icons
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/books/alchemist.pdf
+    - assets/books/wings_of_fire.pdf
+    - assets/books/harry_potter.pdf
+    - assets/books/rich_dad.pdf
+    - assets/images/alchemist.jpg
+    - assets/images/harry_potter.jpg
+    - assets/images/rich_dad.jpg
+    - assets/images/wings_of_fire.jpg
